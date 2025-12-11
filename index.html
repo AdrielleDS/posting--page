@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem de Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <h1>Blog de Pensamentos</h1>
+        <p>Think and Write.</p>
+    </header>
+
+    <main class="container">
+        <section class="card form-postagem">
+            <h2>Criar Nova Publicação</h2>
+            <form id="post-form">
+
+                <div class="campo">
+                    <input type="text" id="titulo-input" required placeholder="Compartilhe um pensamento">
+                </div>
+
+                <div class="campo">
+                    <label for="conteudo-textarea">Conteúdo:</label>
+                    <textarea id="conteudo-textarea" rows="5" required
+                        placeholder="Escreva seu pensamento aqui..."></textarea>
+                </div>
+
+                <button type="submit" id="submit-button" class="btn-publicar">Publicar</button>
+            </form>
+        </section>
+
+        <section class="card card-preview">
+            <h2>Publicações</h2>
+            <article class="post-result">
+
+                <div class="info-usuario">
+                    <div class="avatar">👨‍💻</div>
+                    <div class="dados-usuario">
+                        <strong>Adrielle</strong>
+                    </div>
+                </div>
+
+                <h3 id="renderizador-titulo">Aguardando envio...</h3>
+                <p id="renderizador-conteudo">O conteúdo do seu post aparecerá aqui após a publicação.</p>
+
+            </article>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Projeto de Estudo - HTML, CSS e JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
