@@ -1,4 +1,4 @@
-Projeto de Certificação: Postagem de blog
+Projeto de Certificação 2: Postagem de blog
 
 Este projeto tem como objetivo simular a criação e visualização imediata de um post em um blog ou rede social.
 A aplicação demonstra a comunicação assíncrona com uma API externa (JSONPlaceholder) utilizando o método HTTP POST.
